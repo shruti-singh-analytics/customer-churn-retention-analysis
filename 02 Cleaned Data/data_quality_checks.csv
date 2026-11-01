@@ -1,0 +1,7 @@
+check,actual,expected,passed
+Original rows,7043,7043,True
+Original columns,21,21,True
+Unique customer IDs,7043,7043,True
+Duplicate customer IDs,0,0,True
+Blank TotalCharges found,11,11,True
+Missing values after cleaning,0,0,True

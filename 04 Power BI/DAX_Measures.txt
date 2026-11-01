@@ -1,0 +1,27 @@
+-- Table name expected: CustomerChurn
+
+Total Customers = DISTINCTCOUNT(CustomerChurn[customer_id])
+
+Churned Customers =
+CALCULATE([Total Customers], CustomerChurn[churn] = "Yes")
+
+Retained Customers = [Total Customers] - [Churned Customers]
+
+Churn Rate = DIVIDE([Churned Customers], [Total Customers], 0)
+
+Monthly Revenue = SUM(CustomerChurn[monthly_charges])
+
+Monthly Revenue at Risk =
+CALCULATE([Monthly Revenue], CustomerChurn[churn] = "Yes")
+
+Revenue at Risk % = DIVIDE([Monthly Revenue at Risk], [Monthly Revenue], 0)
+
+Average Monthly Charges = AVERAGE(CustomerChurn[monthly_charges])
+
+Average Tenure (Months) = AVERAGE(CustomerChurn[tenure_months])
+
+Average Total Charges = AVERAGE(CustomerChurn[total_charges])
+
+-- Use percentage format with 1-2 decimals for rate measures.
+-- Use currency format for revenue and charge measures.
+

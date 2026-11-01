@@ -1,0 +1,9 @@
+metric,value,unit
+Total Customers,7043.0,count
+Churned Customers,1869.0,count
+Retained Customers,5174.0,count
+Churn Rate,0.2653698707936959,percentage
+Monthly Revenue,456116.6,currency
+Monthly Revenue at Risk,139130.84999999998,currency
+Average Monthly Charges,64.76169246059918,currency
+Average Tenure (Months),32.37114865824223,months

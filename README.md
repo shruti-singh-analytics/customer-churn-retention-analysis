@@ -69,7 +69,7 @@ These are associations in a fictional, cross-sectional dataset. They do not esta
 2. Open `Telecom_Churn_Analysis.xlsx` for the Excel audit and summaries.
 3. Run the SQL scripts in numeric order in MySQL Workbench. Replace the placeholder CSV path in `01_database_setup.sql`.
 4. Import the cleaned CSV into Power BI and follow `POWER_BI_BUILD_GUIDE.md`.
-5. Compare the dashboard KPIs with `02 Cleaned Data/kpi_summary.csv` before publishing.
+5. Compare the dashboard KPIs with `02 Cleaned Data/` before publishing.
 
 ## Dataset
 

@@ -1,6 +1,10 @@
 # Customer Retention & Revenue Growth Strategy - Telecom Industry
 
-An end-to-end business analysis of 7,043 fictional telecom customer records using Excel, MySQL, and Power BI. The project identifies the customer segments most associated with churn, quantifies monthly recurring revenue associated with churned customers, and translates the findings into practical retention actions.
+An end-to-end business analysis of 7,043 fictional telecom customer records using Excel, MySQL, and Power BI. The project identifies the customer segments most associated with churn, quantifies monthly recurring revenue associated with churned customers, and translates the findings into practical retention actions. 
+
+## Dashboard Preview
+
+![Customer Churn & Retention Analysis Dashboard](05%20Documentation/Dashboard_Preview.png)
 
 ## Business objective
 

@@ -1,6 +1,10 @@
 # Customer Retention & Revenue Growth Strategy - Telecom Industry
 
-An end-to-end business analysis of 7,043 fictional telecom customer records using Excel, MySQL, and Power BI. The project identifies the customer segments most associated with churn, quantifies monthly recurring revenue associated with churned customers, and translates the findings into practical retention actions.
+An end-to-end business analysis of 7,043 fictional telecom customer records using Excel, MySQL, and Power BI. The project identifies the customer segments most associated with churn, quantifies monthly recurring revenue associated with churned customers, and translates the findings into practical retention actions. 
+
+## Dashboard Preview
+
+![Customer Churn & Retention Analysis Dashboard](05%20Documentation/Dashboard_Preview.png)
 
 ## Business objective
 
@@ -34,7 +38,7 @@ The telecom company needs to understand where churn is concentrated and which re
 
 “Monthly revenue at risk” is the sum of monthly charges for customers recorded as churned. It is a descriptive exposure measure, not proof of realised loss or causation.
 
-## Main findings
+## Key findings
 
 - Month-to-month customers churned at **42.71%**, compared with **11.27%** for one-year and **2.83%** for two-year contracts.
 - Customers in their first 0-6 months churned at **52.94%**; the rate fell to **9.51%** among customers with 49+ months of tenure.
@@ -69,7 +73,7 @@ These are associations in a fictional, cross-sectional dataset. They do not esta
 2. Open `Telecom_Churn_Analysis.xlsx` for the Excel audit and summaries.
 3. Run the SQL scripts in numeric order in MySQL Workbench. Replace the placeholder CSV path in `01_database_setup.sql`.
 4. Import the cleaned CSV into Power BI and follow `POWER_BI_BUILD_GUIDE.md`.
-5. Compare the dashboard KPIs with `02 Cleaned Data/kpi_summary.csv` before publishing.
+5. Compare the dashboard KPIs with `02 Cleaned Data/` before publishing.
 
 ## Dataset
 

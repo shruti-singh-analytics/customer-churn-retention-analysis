@@ -34,7 +34,7 @@ The telecom company needs to understand where churn is concentrated and which re
 
 “Monthly revenue at risk” is the sum of monthly charges for customers recorded as churned. It is a descriptive exposure measure, not proof of realised loss or causation.
 
-## Main findings
+## Key findings
 
 - Month-to-month customers churned at **42.71%**, compared with **11.27%** for one-year and **2.83%** for two-year contracts.
 - Customers in their first 0-6 months churned at **52.94%**; the rate fell to **9.51%** among customers with 49+ months of tenure.

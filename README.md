@@ -4,7 +4,7 @@ An end-to-end business analysis of 7,043 fictional telecom customer records usin
 
 ## Dashboard Preview
 
-![Power BI Dashboard](04%29%20Power%20Bi/Dashboard_preview.png)
+![Power BI Dashboard](<04) Power Bi/Dashboard_preview.png>)
 
 ## Business objective
 

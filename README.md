@@ -4,7 +4,7 @@ An end-to-end business analysis of 7,043 fictional telecom customer records usin
 
 ## Dashboard Preview
 
-![Customer Churn & Retention Analysis Dashboard](05%20Documentation/Dashboard_Preview.png)
+![Power BI Dashboard](images/Dashboard_preview.png)
 
 ## Business objective
 
